@@ -121,9 +121,57 @@
   ],
   "elements": [
     {
+      "_id": "elem-07k9nrS5",
+      "attributes": {
+        "label": "beach width"
+      }
+    },
+    {
+      "_id": "elem-0VC98ShC",
+      "attributes": {
+        "label": "ocean   wave  energy",
+        "element type": "state variable"
+      }
+    },
+    {
+      "_id": "elem-1ssH5olj",
+      "attributes": {
+        "label": "living  shoreline",
+        "element type": "lever"
+      }
+    },
+    {
+      "_id": "elem-3DRsGvZA",
+      "attributes": {
+        "label": "dykes",
+        "element type": "lever"
+      }
+    },
+    {
       "_id": "elem-59QU1vmq",
       "attributes": {
-        "label": "backbarrier marsh extent, vegetation",
+        "label": "marsh  extent,  health",
+        "element type": "state variable"
+      }
+    },
+    {
+      "_id": "elem-6VbmX5tP",
+      "attributes": {
+        "label": "ocean  wave  energy",
+        "element type": "state variable"
+      }
+    },
+    {
+      "_id": "elem-8qAkg1tS",
+      "attributes": {
+        "label": "sea  level",
+        "element type": "state variable"
+      }
+    },
+    {
+      "_id": "elem-8zr43x4w",
+      "attributes": {
+        "label": "land  subsidance?",
         "element type": "state variable"
       }
     },
@@ -131,6 +179,13 @@
       "_id": "elem-9WCKkYQd",
       "attributes": {
         "label": "storm surge"
+      }
+    },
+    {
+      "_id": "elem-9nhjwT5e",
+      "attributes": {
+        "label": "marsh  ecological  state",
+        "element type": "state variable"
       }
     },
     {
@@ -148,10 +203,72 @@
       }
     },
     {
+      "_id": "elem-GOFqT6H4",
+      "attributes": {
+        "label": "global,  regional  climate",
+        "element type": "state variable"
+      }
+    },
+    {
+      "_id": "elem-GWrHhane",
+      "attributes": {
+        "label": "shoreface  sediment  exchange",
+        "element type": "process"
+      }
+    },
+    {
+      "_id": "elem-Gjxu2OeY",
+      "attributes": {
+        "label": "tidal  range",
+        "element type": "state variable"
+      }
+    },
+    {
+      "_id": "elem-I9C8ZT2c",
+      "attributes": {
+        "label": "marsh  depth",
+        "element type": "state variable"
+      }
+    },
+    {
+      "_id": "elem-IeuyMidH",
+      "attributes": {
+        "label": "marsh  depth",
+        "element type": "state variable"
+      }
+    },
+    {
+      "_id": "elem-M1RghSF3",
+      "attributes": {
+        "label": "pisa"
+      }
+    },
+    {
+      "_id": "elem-N9BiPh2t",
+      "attributes": {
+        "label": "beach  nourishment",
+        "element type": "lever"
+      }
+    },
+    {
       "_id": "elem-NbI8v4XU",
       "attributes": {
         "label": "dredging",
         "element type": "lever"
+      }
+    },
+    {
+      "_id": "elem-OKEdnMB1",
+      "attributes": {
+        "label": "drivers",
+        "element type": "state variable"
+      }
+    },
+    {
+      "_id": "elem-PL6oLcDf",
+      "attributes": {
+        "label": "local  wind",
+        "element type": "state variable"
       }
     },
     {
@@ -161,16 +278,65 @@
       }
     },
     {
+      "_id": "elem-TeFmkiJV",
+      "attributes": {
+        "label": "marsh  restoration",
+        "element type": "lever"
+      }
+    },
+    {
+      "_id": "elem-TfyHmVwd",
+      "attributes": {
+        "label": "bay  waves",
+        "element type": "state variable"
+      }
+    },
+    {
+      "_id": "elem-UJobTojj",
+      "attributes": {
+        "label": "lagoon  sediment",
+        "element type": "state variable"
+      }
+    },
+    {
+      "_id": "elem-VJY8g3W2",
+      "attributes": {
+        "label": "tidal  prism",
+        "element type": "state variable"
+      }
+    },
+    {
       "_id": "elem-YJBFHFkJ",
       "attributes": {
-        "label": "alongshore  sediment  transport",
+        "label": "longshore  sediment  transport",
         "element type": "process"
+      }
+    },
+    {
+      "_id": "elem-YaIswny0",
+      "attributes": {
+        "label": "\"living  shoreline\"",
+        "element type": "lever"
       }
     },
     {
       "_id": "elem-aY9Ww068",
       "attributes": {
         "label": "lagoon  depth",
+        "element type": "state variable"
+      }
+    },
+    {
+      "_id": "elem-be8gpw4A",
+      "attributes": {
+        "label": "other \"gray\" infrastructure",
+        "element type": "lever"
+      }
+    },
+    {
+      "_id": "elem-bnHi757f",
+      "attributes": {
+        "label": "lagoon  wave  energy",
         "element type": "state variable"
       }
     },
@@ -191,9 +357,9 @@
     {
       "_id": "elem-f2cXyQgb",
       "attributes": {
-        "label": "overwash",
+        "label": "overwash  (volume?)",
         "category": "process",
-        "element type": "process"
+        "element type": "state variable"
       }
     },
     {
@@ -208,6 +374,20 @@
       "attributes": {
         "label": "dykes",
         "element type": "lever"
+      }
+    },
+    {
+      "_id": "elem-iZf5AHT6",
+      "attributes": {
+        "label": "depositing  dredged  material",
+        "element type": "lever"
+      }
+    },
+    {
+      "_id": "elem-ja743jfB",
+      "attributes": {
+        "label": "storms,  hurricanes,  wind",
+        "element type": "state variable"
       }
     },
     {
@@ -237,6 +417,20 @@
       }
     },
     {
+      "_id": "elem-qqbHuj6c",
+      "attributes": {
+        "label": "regional  climate",
+        "element type": "state variable"
+      }
+    },
+    {
+      "_id": "elem-tUkkP0PL",
+      "attributes": {
+        "label": "inland  marsh  depth",
+        "element type": "state variable"
+      }
+    },
+    {
       "_id": "elem-twVjdMjq",
       "attributes": {
         "label": "shoreface  bathymetry",
@@ -246,7 +440,7 @@
     {
       "_id": "elem-vCv7IrBj",
       "attributes": {
-        "label": "storm  surge",
+        "label": "waves,  tide,  surge",
         "element type": "state variable"
       }
     },
@@ -258,6 +452,12 @@
       }
     },
     {
+      "_id": "elem-yVQ6DZVy",
+      "attributes": {
+        "label": "pisa kaki fos"
+      }
+    },
+    {
       "_id": "elem-ygumrQPh",
       "attributes": {
         "label": "beach  width",
@@ -265,58 +465,9 @@
       }
     },
     {
-      "_id": "elem-UJobTojj",
+      "_id": "elem-zCyN4hek",
       "attributes": {
-        "label": "lagoon  sediment  concentration",
-        "element type": "state variable"
-      }
-    },
-    {
-      "_id": "elem-1ssH5olj",
-      "attributes": {
-        "label": "living  shoreline",
-        "element type": "lever"
-      }
-    },
-    {
-      "_id": "elem-be8gpw4A",
-      "attributes": {
-        "label": "other \"gray\" infrastructure",
-        "element type": "lever"
-      }
-    },
-    {
-      "_id": "elem-8qAkg1tS",
-      "attributes": {
-        "label": "sea  level",
-        "element type": "state variable"
-      }
-    },
-    {
-      "_id": "elem-TeFmkiJV",
-      "attributes": {
-        "label": "marsh  restoration",
-        "element type": "lever"
-      }
-    },
-    {
-      "_id": "elem-iZf5AHT6",
-      "attributes": {
-        "label": "depositing  dredged  material",
-        "element type": "lever"
-      }
-    },
-    {
-      "_id": "elem-tUkkP0PL",
-      "attributes": {
-        "label": "inland  marsh  depth",
-        "element type": "state variable"
-      }
-    },
-    {
-      "_id": "elem-bnHi757f",
-      "attributes": {
-        "label": "lagoon wave energy",
+        "label": "inlet features ...",
         "element type": "state variable"
       }
     },
@@ -333,78 +484,18 @@
         "label": "erodability",
         "element type": "state variable"
       }
-    },
-    {
-      "_id": "elem-OKEdnMB1",
-      "attributes": {
-        "label": "drivers",
-        "element type": "state variable"
-      }
-    },
-    {
-      "_id": "elem-zCyN4hek",
-      "attributes": {
-        "label": "inlet features ...",
-        "element type": "state variable"
-      }
-    },
-    {
-      "_id": "elem-N9BiPh2t",
-      "attributes": {
-        "label": "beach  nourishment",
-        "element type": "lever"
-      }
-    },
-    {
-      "_id": "elem-3DRsGvZA",
-      "attributes": {
-        "label": "dykes",
-        "element type": "lever"
-      }
-    },
-    {
-      "_id": "elem-YaIswny0",
-      "attributes": {
-        "label": "\"living  shoreline\"",
-        "element type": "lever"
-      }
-    },
-    {
-      "_id": "elem-0VC98ShC",
-      "attributes": {
-        "label": "waves",
-        "element type": "state variable"
-      }
-    },
-    {
-      "_id": "elem-GWrHhane",
-      "attributes": {
-        "label": "shoreface  sediment  exchange",
-        "element type": "process"
-      }
-    },
-    {
-      "_id": "elem-Gjxu2OeY",
-      "attributes": {
-        "label": "tides",
-        "element type": "state variable"
-      }
-    },
-    {
-      "_id": "elem-07k9nrS5",
-      "attributes": {
-        "label": "beach width"
-      }
-    },
-    {
-      "_id": "elem-I9C8ZT2c",
-      "attributes": {
-        "label": "backbarrier  marsh  depth",
-        "element type": "state variable"
-      }
     }
   ],
   "connections": [
+    {
+      "_id": "conn-0JhphejF",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-ja743jfB",
+      "to": "elem-vCv7IrBj"
+    },
     {
       "_id": "conn-1GZWLMFV",
       "direction": "directed",
@@ -415,6 +506,26 @@
       },
       "from": "elem-cp0EI6JI",
       "to": "elem-YJBFHFkJ"
+    },
+    {
+      "_id": "conn-1QANPzfx",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "ecological  mechanisms"
+      },
+      "from": "elem-tUkkP0PL",
+      "to": "elem-lhv7ULBn"
+    },
+    {
+      "_id": "conn-33J3HOZZ",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-aY9Ww068",
+      "to": "elem-VJY8g3W2"
     },
     {
       "_id": "conn-34s84VlT",
@@ -428,6 +539,17 @@
       "to": "elem-ygumrQPh"
     },
     {
+      "_id": "conn-4lgJi93s",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "erosion"
+      },
+      "from": "elem-bnHi757f",
+      "to": "elem-lhv7ULBn"
+    },
+    {
       "_id": "conn-5IDuXEK3",
       "direction": "directed",
       "delayed": false,
@@ -435,6 +557,33 @@
       "attributes": {},
       "from": "elem-ygumrQPh",
       "to": "elem-mDOGb5jV"
+    },
+    {
+      "_id": "conn-5PCVA0QG",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-Gjxu2OeY",
+      "to": "elem-59QU1vmq"
+    },
+    {
+      "_id": "conn-5hT9TTdl",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-f2cXyQgb",
+      "to": "elem-GWrHhane"
+    },
+    {
+      "_id": "conn-5mpUoAsV",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-ja743jfB",
+      "to": "elem-9WCKkYQd"
     },
     {
       "_id": "conn-6Gay1E3X",
@@ -448,6 +597,89 @@
       "to": "elem-f2cXyQgb"
     },
     {
+      "_id": "conn-7eLCKSNq",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-ja743jfB",
+      "to": "elem-bnHi757f"
+    },
+    {
+      "_id": "conn-AyYYeeEs",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "erosion"
+      },
+      "from": "elem-bnHi757f",
+      "to": "elem-59QU1vmq"
+    },
+    {
+      "_id": "conn-C6vZHerN",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-GOFqT6H4",
+      "to": "elem-qqbHuj6c"
+    },
+    {
+      "_id": "conn-CHNjOQ5k",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-G4uYvhrT",
+      "to": "elem-0VC98ShC"
+    },
+    {
+      "_id": "conn-CuVqDT85",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-8qAkg1tS",
+      "to": "elem-f2cXyQgb"
+    },
+    {
+      "_id": "conn-DIwcEp3H",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-NbI8v4XU",
+      "to": "elem-aY9Ww068"
+    },
+    {
+      "_id": "conn-Dht3GlVz",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-vCv7IrBj",
+      "to": "elem-GWrHhane"
+    },
+    {
+      "_id": "conn-DlriEmCt",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-twVjdMjq",
+      "to": "elem-GWrHhane"
+    },
+    {
+      "_id": "conn-EqlnYE0u",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-IeuyMidH",
+      "to": "elem-9nhjwT5e"
+    },
+    {
       "_id": "conn-FAeyusdv",
       "direction": "directed",
       "delayed": false,
@@ -457,42 +689,180 @@
       "to": "elem-mYVK0K7B"
     },
     {
-      "_id": "conn-fs3copCk",
+      "_id": "conn-JDYI1GgY",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-ygumrQPh",
+      "to": "elem-59QU1vmq"
+    },
+    {
+      "_id": "conn-JXEdz3XM",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-Gjxu2OeY",
+      "to": "elem-vCv7IrBj"
+    },
+    {
+      "_id": "conn-KOqQqY6B",
       "direction": "directed",
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "label": "alongshore  sediment  transport"
+        "label": "longshore  sediment  transport",
+        "connection type": "Same"
       },
-      "from": "elem-YJBFHFkJ",
+      "from": "elem-vCv7IrBj",
       "to": "elem-ygumrQPh"
     },
     {
-      "_id": "conn-td1JDn1J",
+      "_id": "conn-KlovqnP9",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-GOFqT6H4",
+      "to": "elem-8qAkg1tS"
+    },
+    {
+      "_id": "conn-LWfDZQ5S",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-Gjxu2OeY",
+      "to": "elem-GWrHhane"
+    },
+    {
+      "_id": "conn-MPlfBLrM",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-59QU1vmq",
+      "to": "elem-zM9KI7Cj"
+    },
+    {
+      "_id": "conn-N1wxlIR3",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-8qAkg1tS",
+      "to": "elem-vCv7IrBj"
+    },
+    {
+      "_id": "conn-N4qXHZa5",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-8qAkg1tS",
+      "to": "elem-Gjxu2OeY"
+    },
+    {
+      "_id": "conn-ND6W92uT",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-8qAkg1tS",
+      "to": "elem-07k9nrS5"
+    },
+    {
+      "_id": "conn-NmH0Duml",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "ecological  mechanisms"
+      },
+      "from": "elem-I9C8ZT2c",
+      "to": "elem-59QU1vmq"
+    },
+    {
+      "_id": "conn-OaTGbEKT",
       "direction": "directed",
       "delayed": false,
       "reversed": false,
       "attributes": {},
       "from": "elem-aY9Ww068",
+      "to": "elem-bnHi757f"
+    },
+    {
+      "_id": "conn-P2cAfuj2",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-GOFqT6H4",
+      "to": "elem-0VC98ShC"
+    },
+    {
+      "_id": "conn-QXrrgc05",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-zqtutbPd",
+      "to": "elem-lhv7ULBn"
+    },
+    {
+      "_id": "conn-RGSwpYZ2",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-qqbHuj6c",
+      "to": "elem-ja743jfB"
+    },
+    {
+      "_id": "conn-SsTQCxtl",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-8qAkg1tS",
+      "to": "elem-GWrHhane"
+    },
+    {
+      "_id": "conn-T6ia9tlj",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-f2cXyQgb",
+      "to": "elem-59QU1vmq"
+    },
+    {
+      "_id": "conn-TJNJgnD1",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-8qAkg1tS",
+      "to": "elem-tUkkP0PL"
+    },
+    {
+      "_id": "conn-UJDIIiuw",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-OKEdnMB1",
+      "to": "elem-8qAkg1tS"
+    },
+    {
+      "_id": "conn-VQnQDSlQ",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-UJobTojj",
       "to": "elem-mYVK0K7B"
-    },
-    {
-      "_id": "conn-z0YswnJh",
-      "direction": "directed",
-      "delayed": false,
-      "reversed": false,
-      "attributes": {},
-      "from": "elem-G4uYvhrT",
-      "to": "elem-YJBFHFkJ"
-    },
-    {
-      "_id": "conn-zXhPT2tt",
-      "direction": "directed",
-      "delayed": false,
-      "reversed": false,
-      "attributes": {},
-      "from": "elem-fwxuKZPr",
-      "to": "elem-ygumrQPh"
     },
     {
       "_id": "conn-WJJjCWPC",
@@ -506,26 +876,6 @@
       "to": "elem-UJobTojj"
     },
     {
-      "_id": "conn-uW4cwbGx",
-      "direction": "directed",
-      "delayed": false,
-      "reversed": false,
-      "attributes": {
-        "label": "filtering"
-      },
-      "from": "elem-lhv7ULBn",
-      "to": "elem-UJobTojj"
-    },
-    {
-      "_id": "conn-pFNkKhyB",
-      "direction": "directed",
-      "delayed": false,
-      "reversed": false,
-      "attributes": {},
-      "from": "elem-SPYSWGuY",
-      "to": "elem-mYVK0K7B"
-    },
-    {
       "_id": "conn-YZ8F6FEe",
       "direction": "directed",
       "delayed": false,
@@ -537,13 +887,40 @@
       "to": "elem-ygumrQPh"
     },
     {
-      "_id": "conn-yUnMjMCF",
+      "_id": "conn-ZrvLjXEk",
       "direction": "directed",
       "delayed": false,
       "reversed": false,
       "attributes": {},
-      "from": "elem-8qAkg1tS",
+      "from": "elem-NbI8v4XU",
       "to": "elem-aY9Ww068"
+    },
+    {
+      "_id": "conn-ah7lha1q",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-PL6oLcDf",
+      "to": "elem-bnHi757f"
+    },
+    {
+      "_id": "conn-ahybfzqw",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-0VC98ShC",
+      "to": "elem-GWrHhane"
+    },
+    {
+      "_id": "conn-bcpBxOeH",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-Gjxu2OeY",
+      "to": "elem-VJY8g3W2"
     },
     {
       "_id": "conn-bloueNhd",
@@ -566,6 +943,35 @@
       "to": "elem-twVjdMjq"
     },
     {
+      "_id": "conn-dZt6nYDJ",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-G4uYvhrT",
+      "to": "elem-Gjxu2OeY"
+    },
+    {
+      "_id": "conn-fOXYrIGm",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-ja743jfB",
+      "to": "elem-PL6oLcDf"
+    },
+    {
+      "_id": "conn-fs3copCk",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "alongshore  sediment  transport"
+      },
+      "from": "elem-YJBFHFkJ",
+      "to": "elem-ygumrQPh"
+    },
+    {
       "_id": "conn-gpelnEEb",
       "direction": "directed",
       "delayed": false,
@@ -575,6 +981,170 @@
       },
       "from": "elem-vCv7IrBj",
       "to": "elem-UJobTojj"
+    },
+    {
+      "_id": "conn-hTEkcvsT",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-GOFqT6H4",
+      "to": "elem-6VbmX5tP"
+    },
+    {
+      "_id": "conn-i5C8YxL6",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-N9BiPh2t",
+      "to": "elem-ygumrQPh"
+    },
+    {
+      "_id": "conn-iKSV9GOw",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-zM9KI7Cj",
+      "to": "elem-bnHi757f"
+    },
+    {
+      "_id": "conn-jeueWIWk",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-f2cXyQgb",
+      "to": "elem-wMgPpjfC"
+    },
+    {
+      "_id": "conn-ltlVDqD5",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-8qAkg1tS",
+      "to": "elem-0VC98ShC"
+    },
+    {
+      "_id": "conn-mKbnytaq",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-GOFqT6H4",
+      "to": "elem-ja743jfB"
+    },
+    {
+      "_id": "conn-mriLP08E",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-VJY8g3W2",
+      "to": "elem-mYVK0K7B"
+    },
+    {
+      "_id": "conn-nJLLmQ49",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-YJBFHFkJ",
+      "to": "elem-ygumrQPh"
+    },
+    {
+      "_id": "conn-pFNkKhyB",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-SPYSWGuY",
+      "to": "elem-mYVK0K7B"
+    },
+    {
+      "_id": "conn-qKC1poNT",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-f2cXyQgb",
+      "to": "elem-ygumrQPh"
+    },
+    {
+      "_id": "conn-qOT7eriG",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-GWrHhane",
+      "to": "elem-ygumrQPh"
+    },
+    {
+      "_id": "conn-qfvyb83A",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-0VC98ShC",
+      "to": "elem-vCv7IrBj"
+    },
+    {
+      "_id": "conn-qlUDRLYp",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-f2cXyQgb",
+      "to": "elem-UJobTojj"
+    },
+    {
+      "_id": "conn-sTiwMJxf",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-8qAkg1tS",
+      "to": "elem-I9C8ZT2c"
+    },
+    {
+      "_id": "conn-sYtvviKW",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-0VC98ShC",
+      "to": "elem-YJBFHFkJ"
+    },
+    {
+      "_id": "conn-td1JDn1J",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-aY9Ww068",
+      "to": "elem-mYVK0K7B"
+    },
+    {
+      "_id": "conn-uW4cwbGx",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "filtering"
+      },
+      "from": "elem-lhv7ULBn",
+      "to": "elem-UJobTojj"
+    },
+    {
+      "_id": "conn-vZiR5Ov3",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-cp0EI6JI",
+      "to": "elem-0VC98ShC"
     },
     {
       "_id": "conn-w29tFenP",
@@ -588,47 +1158,7 @@
       "to": "elem-ygumrQPh"
     },
     {
-      "_id": "conn-ZrvLjXEk",
-      "direction": "directed",
-      "delayed": false,
-      "reversed": false,
-      "attributes": {},
-      "from": "elem-NbI8v4XU",
-      "to": "elem-aY9Ww068"
-    },
-    {
-      "_id": "conn-1QANPzfx",
-      "direction": "directed",
-      "delayed": false,
-      "reversed": false,
-      "attributes": {
-        "label": "ecological  mechanisms"
-      },
-      "from": "elem-tUkkP0PL",
-      "to": "elem-lhv7ULBn"
-    },
-    {
-      "_id": "conn-TJNJgnD1",
-      "direction": "directed",
-      "delayed": false,
-      "reversed": false,
-      "attributes": {},
-      "from": "elem-8qAkg1tS",
-      "to": "elem-tUkkP0PL"
-    },
-    {
-      "_id": "conn-4lgJi93s",
-      "direction": "directed",
-      "delayed": false,
-      "reversed": false,
-      "attributes": {
-        "label": "erosion"
-      },
-      "from": "elem-bnHi757f",
-      "to": "elem-lhv7ULBn"
-    },
-    {
-      "_id": "conn-iKSV9GOw",
+      "_id": "conn-yBBCsBQm",
       "direction": "directed",
       "delayed": false,
       "reversed": false,
@@ -637,156 +1167,12 @@
       "to": "elem-bnHi757f"
     },
     {
-      "_id": "conn-OaTGbEKT",
+      "_id": "conn-yUnMjMCF",
       "direction": "directed",
       "delayed": false,
       "reversed": false,
       "attributes": {},
-      "from": "elem-aY9Ww068",
-      "to": "elem-bnHi757f"
-    },
-    {
-      "_id": "conn-QXrrgc05",
-      "direction": "directed",
-      "delayed": false,
-      "reversed": false,
-      "attributes": {},
-      "from": "elem-zqtutbPd",
-      "to": "elem-lhv7ULBn"
-    },
-    {
-      "_id": "conn-UJDIIiuw",
-      "direction": "directed",
-      "delayed": false,
-      "reversed": false,
-      "attributes": {},
-      "from": "elem-OKEdnMB1",
-      "to": "elem-8qAkg1tS"
-    },
-    {
-      "_id": "conn-i5C8YxL6",
-      "direction": "directed",
-      "delayed": false,
-      "reversed": false,
-      "attributes": {},
-      "from": "elem-N9BiPh2t",
-      "to": "elem-ygumrQPh"
-    },
-    {
-      "_id": "conn-CHNjOQ5k",
-      "direction": "directed",
-      "delayed": false,
-      "reversed": false,
-      "attributes": {},
-      "from": "elem-G4uYvhrT",
-      "to": "elem-0VC98ShC"
-    },
-    {
-      "_id": "conn-vZiR5Ov3",
-      "direction": "directed",
-      "delayed": false,
-      "reversed": false,
-      "attributes": {},
-      "from": "elem-cp0EI6JI",
-      "to": "elem-0VC98ShC"
-    },
-    {
-      "_id": "conn-nJLLmQ49",
-      "direction": "directed",
-      "delayed": false,
-      "reversed": false,
-      "attributes": {},
-      "from": "elem-YJBFHFkJ",
-      "to": "elem-ygumrQPh"
-    },
-    {
-      "_id": "conn-sYtvviKW",
-      "direction": "directed",
-      "delayed": false,
-      "reversed": false,
-      "attributes": {},
-      "from": "elem-0VC98ShC",
-      "to": "elem-YJBFHFkJ"
-    },
-    {
-      "_id": "conn-qKC1poNT",
-      "direction": "directed",
-      "delayed": false,
-      "reversed": false,
-      "attributes": {},
-      "from": "elem-f2cXyQgb",
-      "to": "elem-ygumrQPh"
-    },
-    {
-      "_id": "conn-qlUDRLYp",
-      "direction": "directed",
-      "delayed": false,
-      "reversed": false,
-      "attributes": {},
-      "from": "elem-f2cXyQgb",
-      "to": "elem-UJobTojj"
-    },
-    {
-      "_id": "conn-DlriEmCt",
-      "direction": "directed",
-      "delayed": false,
-      "reversed": false,
-      "attributes": {},
-      "from": "elem-twVjdMjq",
-      "to": "elem-GWrHhane"
-    },
-    {
-      "_id": "conn-qOT7eriG",
-      "direction": "directed",
-      "delayed": false,
-      "reversed": false,
-      "attributes": {},
-      "from": "elem-GWrHhane",
-      "to": "elem-ygumrQPh"
-    },
-    {
-      "_id": "conn-LWfDZQ5S",
-      "direction": "directed",
-      "delayed": false,
-      "reversed": false,
-      "attributes": {},
-      "from": "elem-Gjxu2OeY",
-      "to": "elem-GWrHhane"
-    },
-    {
-      "_id": "conn-ahybfzqw",
-      "direction": "directed",
-      "delayed": false,
-      "reversed": false,
-      "attributes": {},
-      "from": "elem-0VC98ShC",
-      "to": "elem-GWrHhane"
-    },
-    {
-      "_id": "conn-dZt6nYDJ",
-      "direction": "directed",
-      "delayed": false,
-      "reversed": false,
-      "attributes": {},
-      "from": "elem-G4uYvhrT",
-      "to": "elem-Gjxu2OeY"
-    },
-    {
-      "_id": "conn-qfvyb83A",
-      "direction": "directed",
-      "delayed": false,
-      "reversed": false,
-      "attributes": {},
-      "from": "elem-0VC98ShC",
-      "to": "elem-f2cXyQgb"
-    },
-    {
-      "_id": "conn-DIwcEp3H",
-      "direction": "directed",
-      "delayed": false,
-      "reversed": false,
-      "attributes": {},
-      "from": "elem-NbI8v4XU",
+      "from": "elem-8qAkg1tS",
       "to": "elem-aY9Ww068"
     },
     {
@@ -799,13 +1185,22 @@
       "to": "elem-mYVK0K7B"
     },
     {
-      "_id": "conn-ND6W92uT",
+      "_id": "conn-z0YswnJh",
       "direction": "directed",
       "delayed": false,
       "reversed": false,
       "attributes": {},
-      "from": "elem-8qAkg1tS",
-      "to": "elem-07k9nrS5"
+      "from": "elem-G4uYvhrT",
+      "to": "elem-YJBFHFkJ"
+    },
+    {
+      "_id": "conn-zXhPT2tt",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-fwxuKZPr",
+      "to": "elem-ygumrQPh"
     },
     {
       "_id": "conn-zscSBap0",
@@ -817,80 +1212,13 @@
       "to": "elem-ygumrQPh"
     },
     {
-      "_id": "conn-jeueWIWk",
+      "_id": "conn-zx9P4CcZ",
       "direction": "directed",
       "delayed": false,
       "reversed": false,
       "attributes": {},
-      "from": "elem-f2cXyQgb",
-      "to": "elem-wMgPpjfC"
-    },
-    {
-      "_id": "conn-SsTQCxtl",
-      "direction": "directed",
-      "delayed": false,
-      "reversed": false,
-      "attributes": {},
-      "from": "elem-8qAkg1tS",
-      "to": "elem-GWrHhane"
-    },
-    {
-      "_id": "conn-CuVqDT85",
-      "direction": "directed",
-      "delayed": false,
-      "reversed": false,
-      "attributes": {},
-      "from": "elem-8qAkg1tS",
-      "to": "elem-f2cXyQgb"
-    },
-    {
-      "_id": "conn-T6ia9tlj",
-      "direction": "directed",
-      "delayed": false,
-      "reversed": false,
-      "attributes": {},
-      "from": "elem-f2cXyQgb",
-      "to": "elem-59QU1vmq"
-    },
-    {
-      "_id": "conn-AyYYeeEs",
-      "direction": "directed",
-      "delayed": false,
-      "reversed": false,
-      "attributes": {
-        "label": "erosion"
-      },
-      "from": "elem-bnHi757f",
-      "to": "elem-59QU1vmq"
-    },
-    {
-      "_id": "conn-JDYI1GgY",
-      "direction": "directed",
-      "delayed": false,
-      "reversed": false,
-      "attributes": {},
-      "from": "elem-ygumrQPh",
-      "to": "elem-59QU1vmq"
-    },
-    {
-      "_id": "conn-NmH0Duml",
-      "direction": "directed",
-      "delayed": false,
-      "reversed": false,
-      "attributes": {
-        "label": "ecological  mechanisms"
-      },
-      "from": "elem-I9C8ZT2c",
-      "to": "elem-59QU1vmq"
-    },
-    {
-      "_id": "conn-sTiwMJxf",
-      "direction": "directed",
-      "delayed": false,
-      "reversed": false,
-      "attributes": {},
-      "from": "elem-8qAkg1tS",
-      "to": "elem-I9C8ZT2c"
+      "from": "elem-59QU1vmq",
+      "to": "elem-mYVK0K7B"
     }
   ],
   "loops": [],
@@ -909,10 +1237,62 @@
       "defaultConnectionDirection": "directed",
       "elements": [
         {
+          "_id": "node-0ZKWPO5q",
+          "position": {
+            "x": 535.4545759241905,
+            "y": 986.3996476717903
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-GWrHhane"
+        },
+        {
+          "_id": "node-4XdaOo1j",
+          "position": {
+            "x": 1553.6857820127302,
+            "y": 723.536138528896
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-GOFqT6H4"
+        },
+        {
+          "_id": "node-4sp2luF4",
+          "position": {
+            "x": 1944.633898352052,
+            "y": 1039.2772644998852
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-3DRsGvZA"
+        },
+        {
+          "_id": "node-74ezNgbf",
+          "position": {
+            "x": -178.61455196347492,
+            "y": 721.9092580274726
+          },
+          "pinned": true,
+          "style": {
+            "fontWeight": "normal"
+          },
+          "element": "elem-UJobTojj"
+        },
+        {
+          "_id": "node-79OBChXE",
+          "position": {
+            "x": 50.23870425681921,
+            "y": 1130.2557266578522
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-I9C8ZT2c"
+        },
+        {
           "_id": "node-7j4DNJlP",
           "position": {
-            "x": -293.9317832288587,
-            "y": 150.03845865047006
+            "x": 311.27718756411167,
+            "y": 836.7453810419937
           },
           "pinned": true,
           "style": {
@@ -921,36 +1301,102 @@
           "element": "elem-ygumrQPh"
         },
         {
-          "_id": "node-GP2U2jPm",
+          "_id": "node-8mjJDLd9",
           "position": {
-            "x": -1207.3620048085845,
-            "y": 151.20471773475174
+            "x": 1961.1496242275077,
+            "y": 1357.5755424885033
           },
           "pinned": true,
-          "style": {
-            "fontWeight": "normal",
-            "shape": "circle",
-            "size": 63
-          },
-          "element": "elem-lhv7ULBn"
+          "style": {},
+          "element": "elem-TfyHmVwd"
         },
         {
-          "_id": "node-Hzqi2Mj7",
+          "_id": "node-A2S0IrbB",
           "position": {
-            "x": 552.4971647580371,
-            "y": 468.8038416608279
+            "x": 1674.9967565184909,
+            "y": 1179.1232114820675
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-YaIswny0"
+        },
+        {
+          "_id": "node-ALK3nc0t",
+          "position": {
+            "x": 1812.3839792722436,
+            "y": 1445.6674440797667
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-8zr43x4w"
+        },
+        {
+          "_id": "node-BaAEZUWG",
+          "position": {
+            "x": 267.62326524674603,
+            "y": 1019.9216479235002
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-N9BiPh2t"
+        },
+        {
+          "_id": "node-ELDCEGuj",
+          "position": {
+            "x": 1139.307297694618,
+            "y": 654.8750269636643
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-ja743jfB"
+        },
+        {
+          "_id": "node-EYmzOso4",
+          "position": {
+            "x": -322.8739658555052,
+            "y": 583.191972256664
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-zM9KI7Cj"
+        },
+        {
+          "_id": "node-HJ3dWO9O",
+          "position": {
+            "x": 1800.596218296655,
+            "y": 938.4643500566742
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-EPhAimOr"
+        },
+        {
+          "_id": "node-JHMLdfbb",
+          "position": {
+            "x": 1381.718966497684,
+            "y": 925.8236312936613
           },
           "pinned": true,
           "style": {
             "fontWeight": "normal"
           },
-          "element": "elem-cp0EI6JI"
+          "element": "elem-8qAkg1tS"
+        },
+        {
+          "_id": "node-O18tiYwr",
+          "position": {
+            "x": 687.2491581633677,
+            "y": 828.65168914814
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-f2cXyQgb"
         },
         {
           "_id": "node-OvGdU7ZC",
           "position": {
-            "x": -898.4135083379565,
-            "y": 365.4390336145334
+            "x": 17.551467275432483,
+            "y": 1428.535645226979
           },
           "pinned": true,
           "style": {
@@ -959,10 +1405,20 @@
           "element": "elem-aY9Ww068"
         },
         {
+          "_id": "node-P5GEzsu6",
+          "position": {
+            "x": 1183.6118417491095,
+            "y": 813.4756102983142
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-0VC98ShC"
+        },
+        {
           "_id": "node-XQQJ957Q",
           "position": {
-            "x": 322.42865532811817,
-            "y": 579.009802999098
+            "x": 919.8921728593693,
+            "y": 832.3957890367428
           },
           "pinned": true,
           "style": {
@@ -971,10 +1427,50 @@
           "element": "elem-vCv7IrBj"
         },
         {
+          "_id": "node-fRPg89aW",
+          "position": {
+            "x": -468.53956178192396,
+            "y": 762.6114257229561
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-bnHi757f"
+        },
+        {
+          "_id": "node-fxsVTLn5",
+          "position": {
+            "x": 1097.4427902824457,
+            "y": 1007.9565984331899
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-Gjxu2OeY"
+        },
+        {
+          "_id": "node-hulIZJbI",
+          "position": {
+            "x": 1666.9201520880488,
+            "y": 1023.9887864470178
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-be8gpw4A"
+        },
+        {
+          "_id": "node-iLOlksnt",
+          "position": {
+            "x": 1800.5614994880825,
+            "y": 1088.9315239787886
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-iZf5AHT6"
+        },
+        {
           "_id": "node-jz9cVhlW",
           "position": {
-            "x": -692.327715213154,
-            "y": -141.87667493173828
+            "x": -315.0379732139925,
+            "y": 873.0185808347032
           },
           "pinned": true,
           "style": {
@@ -985,8 +1481,8 @@
         {
           "_id": "node-mgLxUNSM",
           "position": {
-            "x": -615.8663996582353,
-            "y": 151.15521318828345
+            "x": 43.62225569068137,
+            "y": 838.5610184937663
           },
           "pinned": true,
           "style": {
@@ -995,10 +1491,30 @@
           "element": "elem-59QU1vmq"
         },
         {
+          "_id": "node-mtY26aYj",
+          "position": {
+            "x": -106.96018020966235,
+            "y": 1230.057005402185
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-VJY8g3W2"
+        },
+        {
+          "_id": "node-pF5zGu4Y",
+          "position": {
+            "x": 1807.8495725506175,
+            "y": 1269.0914248176616
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-G4uYvhrT"
+        },
+        {
           "_id": "node-rTJHQdkf",
           "position": {
-            "x": 40.28397128705841,
-            "y": 149.9518768067696
+            "x": 1941.9554954080597,
+            "y": 1199.9078725412205
           },
           "pinned": true,
           "style": {
@@ -1007,316 +1523,148 @@
           "element": "elem-twVjdMjq"
         },
         {
-          "_id": "node-74ezNgbf",
-          "position": {
-            "x": -902.6720067273963,
-            "y": -1.4566590001721653
-          },
-          "pinned": true,
-          "style": {
-            "fontWeight": "normal"
-          },
-          "element": "elem-UJobTojj"
-        },
-        {
-          "_id": "node-JHMLdfbb",
-          "position": {
-            "x": -287.02180696957964,
-            "y": 581.5355970656595
-          },
-          "pinned": true,
-          "style": {
-            "fontWeight": "normal"
-          },
-          "element": "elem-8qAkg1tS"
-        },
-        {
-          "_id": "node-RA3Z9UBX",
-          "position": {
-            "x": -1207.8760448880016,
-            "y": 364.4228616701866
-          },
-          "pinned": true,
-          "style": {},
-          "element": "elem-tUkkP0PL"
-        },
-        {
-          "_id": "node-fRPg89aW",
-          "position": {
-            "x": -903.7998387522326,
-            "y": 190.00407817026797
-          },
-          "pinned": true,
-          "style": {},
-          "element": "elem-bnHi757f"
-        },
-        {
-          "_id": "node-O18tiYwr",
-          "position": {
-            "x": -175.07132664851304,
-            "y": 378.55434728951866
-          },
-          "pinned": true,
-          "style": {},
-          "element": "elem-f2cXyQgb"
-        },
-        {
-          "_id": "node-BaAEZUWG",
-          "position": {
-            "x": -429.3996787476117,
-            "y": -55.212158342677164
-          },
-          "pinned": true,
-          "style": {},
-          "element": "elem-N9BiPh2t"
-        },
-        {
-          "_id": "node-HJ3dWO9O",
-          "position": {
-            "x": 855.0168430121563,
-            "y": 0.8437689246603286
-          },
-          "pinned": true,
-          "style": {},
-          "element": "elem-EPhAimOr"
-        },
-        {
-          "_id": "node-A2S0IrbB",
-          "position": {
-            "x": 729.4173812339918,
-            "y": 241.502630350054
-          },
-          "pinned": true,
-          "style": {},
-          "element": "elem-YaIswny0"
-        },
-        {
-          "_id": "node-hulIZJbI",
-          "position": {
-            "x": 721.3407768035498,
-            "y": 86.36820531500389
-          },
-          "pinned": true,
-          "style": {},
-          "element": "elem-be8gpw4A"
-        },
-        {
-          "_id": "node-4sp2luF4",
-          "position": {
-            "x": 714.3241937302039,
-            "y": -61.61317297106271
-          },
-          "pinned": true,
-          "style": {},
-          "element": "elem-3DRsGvZA"
-        },
-        {
-          "_id": "node-iLOlksnt",
-          "position": {
-            "x": 854.9821242035837,
-            "y": 151.31094284677505
-          },
-          "pinned": true,
-          "style": {},
-          "element": "elem-iZf5AHT6"
-        },
-        {
-          "_id": "node-J0Tp9fcH",
-          "position": {
-            "x": 131.87941174406322,
-            "y": 285.0347755432706
-          },
-          "pinned": true,
-          "style": {},
-          "element": "elem-YJBFHFkJ"
-        },
-        {
-          "_id": "node-pF5zGu4Y",
-          "position": {
-            "x": 478.38473178386744,
-            "y": -88.96023681663718
-          },
-          "pinned": true,
-          "style": {},
-          "element": "elem-G4uYvhrT"
-        },
-        {
-          "_id": "node-P5GEzsu6",
-          "position": {
-            "x": 425.9186845135821,
-            "y": 150.53037588653217
-          },
-          "pinned": true,
-          "style": {},
-          "element": "elem-0VC98ShC"
-        },
-        {
-          "_id": "node-0ZKWPO5q",
-          "position": {
-            "x": -118.1719396230256,
-            "y": -16.564986157720316
-          },
-          "pinned": true,
-          "style": {},
-          "element": "elem-GWrHhane"
-        },
-        {
-          "_id": "node-fxsVTLn5",
-          "position": {
-            "x": 188.42193430643016,
-            "y": -153.7894067992971
-          },
-          "pinned": true,
-          "style": {},
-          "element": "elem-Gjxu2OeY"
-        },
-        {
           "_id": "node-vOx7kStc",
           "position": {
-            "x": -1112.6358928593256,
-            "y": 604.8188287662362
+            "x": -223.49046710153812,
+            "y": 1377.292260631967
           },
           "pinned": true,
           "style": {},
           "element": "elem-NbI8v4XU"
-        },
-        {
-          "_id": "node-79OBChXE",
-          "position": {
-            "x": -612.842100877543,
-            "y": 359.5765910939126
-          },
-          "pinned": true,
-          "style": {},
-          "element": "elem-I9C8ZT2c"
         }
       ],
       "connections": [
         {
+          "_id": "edge-02ZfksGh",
+          "curvature": -0.22555613446061393,
+          "style": {},
+          "connection": "conn-7eLCKSNq"
+        },
+        {
+          "_id": "edge-1QODDPMa",
+          "curvature": 0.6031550912218774,
+          "style": {},
+          "connection": "conn-zscSBap0"
+        },
+        {
+          "_id": "edge-4Jj7ZOs3",
+          "curvature": 0.007601378717522327,
+          "style": {},
+          "connection": "conn-mriLP08E"
+        },
+        {
           "_id": "edge-96dd1fcZ",
-          "curvature": 0.16210373496710498,
+          "curvature": 0.0018446074839557748,
           "style": {},
           "connection": "conn-6Gay1E3X"
         },
         {
+          "_id": "edge-9MbgnVzg",
+          "curvature": 0.11281684981624773,
+          "style": {},
+          "connection": "conn-NmH0Duml"
+        },
+        {
+          "_id": "edge-AXpvawHg",
+          "curvature": -0.08292699490085108,
+          "style": {},
+          "connection": "conn-qfvyb83A"
+        },
+        {
+          "_id": "edge-BgmoiuKk",
+          "curvature": -0.16448280734586976,
+          "style": {},
+          "connection": "conn-0JhphejF"
+        },
+        {
+          "_id": "edge-DLZSlBMF",
+          "curvature": -0.008416740182777379,
+          "style": {},
+          "connection": "conn-33J3HOZZ"
+        },
+        {
+          "_id": "edge-DU4KCLgV",
+          "curvature": -0.510450165286678,
+          "style": {},
+          "connection": "conn-KOqQqY6B"
+        },
+        {
           "_id": "edge-DVXgb59P",
-          "curvature": 0.03595291563011281,
+          "curvature": -0.21227473263979887,
           "style": {},
           "connection": "conn-WJJjCWPC"
         },
         {
-          "_id": "edge-FI7mUwcD",
-          "curvature": -0.05805190133075731,
+          "_id": "edge-GjLiRTfu",
+          "curvature": -0.045495427095150094,
           "style": {},
-          "connection": "conn-uW4cwbGx"
-        },
-        {
-          "_id": "edge-NwaP80sN",
-          "curvature": 0.19454847765924307,
-          "style": {},
-          "connection": "conn-yUnMjMCF"
-        },
-        {
-          "_id": "edge-9vX4dgux",
-          "curvature": -0.009282021792165971,
-          "style": {},
-          "connection": "conn-1QANPzfx"
-        },
-        {
-          "_id": "edge-vs0da8hL",
-          "curvature": 0.23867605660730995,
-          "style": {},
-          "connection": "conn-TJNJgnD1"
-        },
-        {
-          "_id": "edge-U3OZLuAq",
-          "curvature": 0.049174041385624936,
-          "style": {},
-          "connection": "conn-4lgJi93s"
-        },
-        {
-          "_id": "edge-hgDLtyr9",
-          "curvature": -0.07100519599609617,
-          "style": {},
-          "connection": "conn-OaTGbEKT"
-        },
-        {
-          "_id": "edge-p6obBsn3",
-          "curvature": 0.037575337424867884,
-          "style": {},
-          "connection": "conn-i5C8YxL6"
-        },
-        {
-          "_id": "edge-0D4ITgYh",
-          "curvature": 0.30664960275559805,
-          "style": {},
-          "connection": "conn-CHNjOQ5k"
-        },
-        {
-          "_id": "edge-a3dxGVk7",
-          "curvature": -0.24095716088969651,
-          "style": {},
-          "connection": "conn-vZiR5Ov3"
-        },
-        {
-          "_id": "edge-3KuuH0iK",
-          "curvature": 0.16385445449814523,
-          "style": {},
-          "connection": "conn-nJLLmQ49"
-        },
-        {
-          "_id": "edge-ogVTHUcE",
-          "curvature": 0.11739830264143579,
-          "style": {},
-          "connection": "conn-sYtvviKW"
-        },
-        {
-          "_id": "edge-SrnemRJm",
-          "curvature": 0.06407056641821851,
-          "style": {},
-          "connection": "conn-qKC1poNT"
-        },
-        {
-          "_id": "edge-Sq7XA8Bo",
-          "curvature": -0.18151273309825688,
-          "style": {},
-          "connection": "conn-qlUDRLYp"
-        },
-        {
-          "_id": "edge-Ol7T3TzD",
-          "curvature": -0.3474905012225932,
-          "style": {},
-          "connection": "conn-DlriEmCt"
-        },
-        {
-          "_id": "edge-g4P58xQJ",
-          "curvature": -0.15131160054365572,
-          "style": {},
-          "connection": "conn-qOT7eriG"
+          "connection": "conn-P2cAfuj2"
         },
         {
           "_id": "edge-HmZgzI7h",
-          "curvature": -0.15248256889525638,
+          "curvature": 0.10044100998187111,
           "style": {},
           "connection": "conn-LWfDZQ5S"
         },
         {
-          "_id": "edge-jtYOcxgM",
-          "curvature": -0.274079446507685,
+          "_id": "edge-Hz81gN0y",
+          "curvature": -0.21916283972351647,
           "style": {},
-          "connection": "conn-ahybfzqw"
+          "connection": "conn-yBBCsBQm"
         },
         {
-          "_id": "edge-28TaWkqF",
-          "curvature": -0.1767891910843492,
+          "_id": "edge-KfXUzu1o",
+          "curvature": -0.787594075443162,
           "style": {},
-          "connection": "conn-dZt6nYDJ"
+          "connection": "conn-AyYYeeEs"
         },
         {
-          "_id": "edge-AXpvawHg",
-          "curvature": 0.36647525173869316,
+          "_id": "edge-NwaP80sN",
+          "curvature": 0.40618982719427693,
           "style": {},
-          "connection": "conn-qfvyb83A"
+          "connection": "conn-yUnMjMCF"
+        },
+        {
+          "_id": "edge-QtJLLSpB",
+          "curvature": 0.1759734453673353,
+          "style": {},
+          "connection": "conn-N1wxlIR3"
+        },
+        {
+          "_id": "edge-Sq7XA8Bo",
+          "curvature": -0.261371380805644,
+          "style": {},
+          "connection": "conn-qlUDRLYp"
+        },
+        {
+          "_id": "edge-SrnemRJm",
+          "curvature": 0.004063883742654504,
+          "style": {},
+          "connection": "conn-qKC1poNT"
+        },
+        {
+          "_id": "edge-T3ngfhxv",
+          "curvature": 0.13488374523803295,
+          "style": {},
+          "connection": "conn-Dht3GlVz"
+        },
+        {
+          "_id": "edge-THFPcK78",
+          "curvature": 0.14758415577685458,
+          "style": {},
+          "connection": "conn-JXEdz3XM"
+        },
+        {
+          "_id": "edge-XRTZ8KfR",
+          "curvature": 0.47860689385471133,
+          "style": {},
+          "connection": "conn-sTiwMJxf"
+        },
+        {
+          "_id": "edge-g4P58xQJ",
+          "curvature": 0.10398668105770863,
+          "style": {},
+          "connection": "conn-qOT7eriG"
         },
         {
           "_id": "edge-jfq1URMP",
@@ -1325,45 +1673,70 @@
           "connection": "conn-DIwcEp3H"
         },
         {
-          "_id": "edge-31LiW4T8",
-          "curvature": -0.40276754021759587,
+          "_id": "edge-kidEOPya",
+          "curvature": -0.5137482497883085,
           "style": {},
-          "connection": "conn-yWeCf0do"
+          "connection": "conn-MPlfBLrM"
         },
         {
-          "_id": "edge-1QODDPMa",
-          "curvature": 0.049379981202456985,
+          "_id": "edge-l6MPa80n",
+          "curvature": -0.13824178240864451,
           "style": {},
-          "connection": "conn-zscSBap0"
+          "connection": "conn-mKbnytaq"
         },
         {
-          "_id": "edge-tyqsgrky",
-          "curvature": -0.5614208833362299,
+          "_id": "edge-n4mWiPPa",
+          "curvature": 0.5721931157257211,
           "style": {},
-          "connection": "conn-CuVqDT85"
+          "connection": "conn-5PCVA0QG"
+        },
+        {
+          "_id": "edge-nsPUFpP5",
+          "curvature": 0.019016764707214404,
+          "style": {},
+          "connection": "conn-KlovqnP9"
+        },
+        {
+          "_id": "edge-p6obBsn3",
+          "curvature": 0.037575337424867884,
+          "style": {},
+          "connection": "conn-i5C8YxL6"
         },
         {
           "_id": "edge-sr95wLiH",
+          "curvature": -0.2848261261900471,
           "style": {},
           "connection": "conn-T6ia9tlj"
         },
         {
-          "_id": "edge-KfXUzu1o",
-          "curvature": -0.01301456630076862,
+          "_id": "edge-tZh3dY5G",
+          "curvature": -0.17410146149502334,
           "style": {},
-          "connection": "conn-AyYYeeEs"
+          "connection": "conn-zx9P4CcZ"
         },
         {
-          "_id": "edge-9MbgnVzg",
-          "curvature": 0.0394989766171916,
+          "_id": "edge-tkgcrgvj",
+          "curvature": 0.11776892167041737,
           "style": {},
-          "connection": "conn-NmH0Duml"
+          "connection": "conn-N4qXHZa5"
         },
         {
-          "_id": "edge-XRTZ8KfR",
-          "curvature": 0.23649622864323327,
+          "_id": "edge-v3PyjYOd",
+          "curvature": -0.19307302619302083,
           "style": {},
-          "connection": "conn-sTiwMJxf"
+          "connection": "conn-VQnQDSlQ"
+        },
+        {
+          "_id": "edge-vBsuRryG",
+          "curvature": 0.43423306355422164,
+          "style": {},
+          "connection": "conn-bcpBxOeH"
+        },
+        {
+          "_id": "edge-xBKyB148",
+          "curvature": 0.16427035867685236,
+          "style": {},
+          "connection": "conn-5hT9TTdl"
         }
       ],
       "loops": []
@@ -1373,7 +1746,7 @@
     {
       "_id": "pers-knup94hL",
       "name": "Forsythe draft",
-      "style": "@controls {\n  bottom {\n    filter {\n      target: element;\n      by: \"element type\";\n      as: buttons;\n      multiple: true;\n      default: show-all;\n    }\n\n    filter {\n      target: element;\n      by: \"element type\";\n      as: buttons;\n      multiple: true;\n      default: show-all;\n    }\n  }\n}\n\n@settings {\n  template: systems;\n  connection-color: #c6c6c6;\n  element-size: 63;\n  font-size: 32;\n  font-color: #000000;\n  theme: light;\n  layout: force;\n}\n\n/* State Variable */\nelement[\"element type\"=\"state variable\"] {\n  color: #97d7cd;\n}\n\n/* Process */\nelement[\"element type\"=\"process\"] {\n  color: #dedede;\n}\n\n/* Lever */\nelement[\"element type\"=\"lever\"] {\n  color: #e8cf93;\n}\n\n"
+      "style": "@settings {\n  template: systems;\n  connection-color: #c6c6c6;\n  element-size: 63;\n  font-size: 32;\n  font-color: #000000;\n  theme: light;\n  layout: static;\n  layout-grid: true;\n  include: same-connection, -connection, --connection, -connection, --connection, --connection, --connection, undefined-connection, element, loop;\n  direct-decorations: false;\n}\n\n/* state variable */\nelement[\"element type\"=\"state variable\"] {\n  color: #97d7cd;\n}\n\n/* process */\nelement[\"element type\"=\"process\"] {\n  color: #dedede;\n}\n\n/* management action */\nelement[\"element type\"=\"lever\"] {\n  color: #fdc171;\n}\n\n\n"
     }
   ]
 }
