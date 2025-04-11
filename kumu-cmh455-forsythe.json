@@ -354,7 +354,7 @@
     {
       "_id": "elem-YJBFHFkJ",
       "attributes": {
-        "label": "longshore  sediment  transport",
+        "label": "alongshore  sediment  transport",
         "element type": "process"
       }
     },
@@ -493,7 +493,7 @@
     {
       "_id": "elem-mYVK0K7B",
       "attributes": {
-        "label": "backbay  sediment  transport",
+        "label": "backbay  sediment  transport,  exchange",
         "element type": "process"
       }
     },
@@ -509,6 +509,13 @@
       "attributes": {
         "label": "regional  climate",
         "element type": "state variable"
+      }
+    },
+    {
+      "_id": "elem-qumQc99D",
+      "attributes": {
+        "label": "dune  flattening",
+        "element type": "lever"
       }
     },
     {
@@ -537,6 +544,13 @@
       "attributes": {
         "label": "plover  habitat",
         "element type": "ecology state variable"
+      }
+    },
+    {
+      "_id": "elem-uo0xmbS6",
+      "attributes": {
+        "label": "barrier  height",
+        "element type": "state variable"
       }
     },
     {
@@ -571,7 +585,7 @@
       "_id": "elem-xR7GbpVU",
       "attributes": {
         "label": "marsh  inundation  frequency",
-        "element type": "state variable"
+        "element type": ""
       }
     },
     {
@@ -671,6 +685,15 @@
       "to": "elem-ygumrQPh"
     },
     {
+      "_id": "conn-3Hv5vIg6",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-YJBFHFkJ",
+      "to": "elem-kky1OmAI"
+    },
+    {
       "_id": "conn-3rtKd86Z",
       "direction": "directed",
       "delayed": false,
@@ -727,6 +750,15 @@
       "to": "elem-GWrHhane"
     },
     {
+      "_id": "conn-5iKqiT3x",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-uo0xmbS6",
+      "to": "elem-f2cXyQgb"
+    },
+    {
       "_id": "conn-5mpUoAsV",
       "direction": "directed",
       "delayed": false,
@@ -745,6 +777,15 @@
       "to": "elem-f2cXyQgb"
     },
     {
+      "_id": "conn-6FKjILpU",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-GWrHhane",
+      "to": "elem-eE7aEVw0"
+    },
+    {
       "_id": "conn-6Gay1E3X",
       "direction": "directed",
       "delayed": false,
@@ -756,6 +797,15 @@
       "to": "elem-f2cXyQgb"
     },
     {
+      "_id": "conn-772DAgxy",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-Uup6hq6B",
+      "to": "elem-I9C8ZT2c"
+    },
+    {
       "_id": "conn-7eLCKSNq",
       "direction": "directed",
       "delayed": false,
@@ -763,6 +813,15 @@
       "attributes": {},
       "from": "elem-ja743jfB",
       "to": "elem-bnHi757f"
+    },
+    {
+      "_id": "conn-7kcJf1zM",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-GWrHhane",
+      "to": "elem-kky1OmAI"
     },
     {
       "_id": "conn-89CppK9T",
@@ -803,6 +862,15 @@
       "to": "elem-ja743jfB"
     },
     {
+      "_id": "conn-AYh08YFP",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-f2cXyQgb",
+      "to": "elem-9XAcUH2R"
+    },
+    {
       "_id": "conn-An6WooOn",
       "direction": "directed",
       "delayed": false,
@@ -819,6 +887,15 @@
       "attributes": {},
       "from": "elem-EVzF0F7d",
       "to": "elem-bnHi757f"
+    },
+    {
+      "_id": "conn-AwweyFGT",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-qumQc99D",
+      "to": "elem-uo0xmbS6"
     },
     {
       "_id": "conn-AyYYeeEs",
@@ -857,6 +934,15 @@
       "attributes": {},
       "from": "elem-8qAkg1tS",
       "to": "elem-f2cXyQgb"
+    },
+    {
+      "_id": "conn-Cueona9t",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-N9BiPh2t",
+      "to": "elem-kky1OmAI"
     },
     {
       "_id": "conn-D2EbB9FF",
@@ -913,6 +999,15 @@
       "to": "elem-YJBFHFkJ"
     },
     {
+      "_id": "conn-Ei6bpaF5",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-kky1OmAI",
+      "to": "elem-GWrHhane"
+    },
+    {
       "_id": "conn-EqlnYE0u",
       "direction": "directed",
       "delayed": false,
@@ -949,6 +1044,15 @@
       "to": "elem-ja743jfB"
     },
     {
+      "_id": "conn-IqhWWrDX",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-f2cXyQgb",
+      "to": "elem-uo0xmbS6"
+    },
+    {
       "_id": "conn-JDYI1GgY",
       "direction": "directed",
       "delayed": false,
@@ -976,6 +1080,15 @@
       "to": "elem-YJBFHFkJ"
     },
     {
+      "_id": "conn-KCsm0f5N",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-eE7aEVw0",
+      "to": "elem-YJBFHFkJ"
+    },
+    {
       "_id": "conn-KOqQqY6B",
       "direction": "directed",
       "delayed": false,
@@ -995,6 +1108,15 @@
       "attributes": {},
       "from": "elem-N9BiPh2t",
       "to": "elem-eE7aEVw0"
+    },
+    {
+      "_id": "conn-KfQF9lpz",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-Uup6hq6B",
+      "to": "elem-IeuyMidH"
     },
     {
       "_id": "conn-KlovqnP9",
@@ -1246,6 +1368,15 @@
       "to": "elem-aY9Ww068"
     },
     {
+      "_id": "conn-ZvLJbEJO",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-YJBFHFkJ",
+      "to": "elem-eE7aEVw0"
+    },
+    {
       "_id": "conn-ah7lha1q",
       "direction": "directed",
       "delayed": false,
@@ -1262,6 +1393,15 @@
       "attributes": {},
       "from": "elem-0VC98ShC",
       "to": "elem-GWrHhane"
+    },
+    {
+      "_id": "conn-b6Osm7cw",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-GWrHhane",
+      "to": "elem-kky1OmAI"
     },
     {
       "_id": "conn-bcpBxOeH",
@@ -1282,6 +1422,15 @@
       },
       "from": "elem-twVjdMjq",
       "to": "elem-ygumrQPh"
+    },
+    {
+      "_id": "conn-cKfa2evL",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-f2cXyQgb",
+      "to": "elem-kky1OmAI"
     },
     {
       "_id": "conn-cXDyWCTR",
@@ -1598,6 +1747,15 @@
       "to": "elem-UJobTojj"
     },
     {
+      "_id": "conn-vHMFARr3",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-8qAkg1tS",
+      "to": "elem-Uup6hq6B"
+    },
+    {
       "_id": "conn-vZiR5Ov3",
       "direction": "directed",
       "delayed": false,
@@ -1659,7 +1817,7 @@
       "delayed": false,
       "reversed": false,
       "attributes": {},
-      "from": "elem-8qAkg1tS",
+      "from": "elem-Uup6hq6B",
       "to": "elem-aY9Ww068"
     },
     {
@@ -1728,8 +1886,8 @@
         {
           "_id": "node-0ZKWPO5q",
           "position": {
-            "x": 1398.4760424682408,
-            "y": 1182.6580753085175
+            "x": 1296.424617901693,
+            "y": 976.3013322772654
           },
           "pinned": true,
           "style": {},
@@ -1738,8 +1896,8 @@
         {
           "_id": "node-0bCsD9bv",
           "position": {
-            "x": 1900.749996793276,
-            "y": 726.8824216048466
+            "x": 1849.145978533723,
+            "y": 836.8003214480258
           },
           "pinned": true,
           "style": {},
@@ -1748,8 +1906,8 @@
         {
           "_id": "node-2TiII5MZ",
           "position": {
-            "x": 270.097816919514,
-            "y": 762.1950146226915
+            "x": 180.79952186526566,
+            "y": 766.7744143690633
           },
           "pinned": true,
           "style": {},
@@ -1758,8 +1916,8 @@
         {
           "_id": "node-4sp2luF4",
           "position": {
-            "x": 2061.6976570227375,
-            "y": 4.982788794047449
+            "x": 2070.1530161019687,
+            "y": -10.363592739786686
           },
           "pinned": true,
           "style": {},
@@ -1768,8 +1926,8 @@
         {
           "_id": "node-74ezNgbf",
           "position": {
-            "x": -63.817458733544065,
-            "y": 396.90813852635165
+            "x": -166.04750288975424,
+            "y": 526.4944462583547
           },
           "pinned": true,
           "style": {
@@ -1780,30 +1938,18 @@
         {
           "_id": "node-79OBChXE",
           "position": {
-            "x": -98.86215046596799,
-            "y": 873.9190303987754
+            "x": 395.71650159507556,
+            "y": 1054.0890631280047
           },
           "pinned": true,
           "style": {},
           "element": "elem-I9C8ZT2c"
         },
         {
-          "_id": "node-7j4DNJlP",
-          "position": {
-            "x": 2361.0107421540456,
-            "y": 134.7886340523909
-          },
-          "pinned": true,
-          "style": {
-            "fontWeight": "normal"
-          },
-          "element": "elem-ygumrQPh"
-        },
-        {
           "_id": "node-A2S0IrbB",
           "position": {
-            "x": 2263.886627182912,
-            "y": -10.394856648572183
+            "x": 2276.979687759877,
+            "y": -16.46583518693937
           },
           "pinned": true,
           "style": {},
@@ -1812,8 +1958,8 @@
         {
           "_id": "node-ALK3nc0t",
           "position": {
-            "x": 2412.3143684551615,
-            "y": 766.6764285327581
+            "x": 2340.0053192598684,
+            "y": 996.9210614002639
           },
           "pinned": true,
           "style": {},
@@ -1822,18 +1968,28 @@
         {
           "_id": "node-BaAEZUWG",
           "position": {
-            "x": 1005.4825029756,
-            "y": 519.2253865127386
+            "x": 1313.1017521041974,
+            "y": 367.8886113792327
           },
           "pinned": true,
           "style": {},
           "element": "elem-N9BiPh2t"
         },
         {
+          "_id": "node-DdXDcLi3",
+          "position": {
+            "x": 885.3595402471038,
+            "y": 340.6649502312095
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-uo0xmbS6"
+        },
+        {
           "_id": "node-E8HdqUaT",
           "position": {
-            "x": 48.88234674234399,
-            "y": 262.7382441138445
+            "x": -181.22832742215581,
+            "y": 702.6865302929324
           },
           "pinned": true,
           "style": {},
@@ -1842,8 +1998,8 @@
         {
           "_id": "node-ELDCEGuj",
           "position": {
-            "x": 2092.0977812147294,
-            "y": 503.34973471395483
+            "x": 2111.2968979371885,
+            "y": 645.2669060666728
           },
           "pinned": true,
           "style": {},
@@ -1862,8 +2018,8 @@
         {
           "_id": "node-HJ3dWO9O",
           "position": {
-            "x": 1871.9996981761783,
-            "y": 17.52247572104693
+            "x": 1882.744757128595,
+            "y": -4.693005432344762
           },
           "pinned": true,
           "style": {},
@@ -1872,8 +2028,8 @@
         {
           "_id": "node-JHMLdfbb",
           "position": {
-            "x": 2155.662853598358,
-            "y": 762.7960318797227
+            "x": 2155.0466545823797,
+            "y": 875.7758189943928
           },
           "pinned": true,
           "style": {
@@ -1884,8 +2040,8 @@
         {
           "_id": "node-JRCi66bY",
           "position": {
-            "x": 1018.0074301673033,
-            "y": 1215.389061548529
+            "x": 2366.6406554737714,
+            "y": 123.20222203887681
           },
           "pinned": true,
           "style": {},
@@ -1894,8 +2050,8 @@
         {
           "_id": "node-Kfsk6e9a",
           "position": {
-            "x": 1678.4896489980574,
-            "y": 766.4879068868546
+            "x": 1580.830334014627,
+            "y": 900.5014746315088
           },
           "pinned": true,
           "style": {},
@@ -1904,8 +2060,8 @@
         {
           "_id": "node-O0pi0zm0",
           "position": {
-            "x": 1269.1960232627441,
-            "y": 760.2569872657542
+            "x": 1270.677374706246,
+            "y": 761.7383387092559
           },
           "pinned": true,
           "style": {},
@@ -1914,8 +2070,8 @@
         {
           "_id": "node-O18tiYwr",
           "position": {
-            "x": 1360.4341921802059,
-            "y": 1022.3816338453564
+            "x": 1094.505192208296,
+            "y": 478.29437329156485
           },
           "pinned": true,
           "style": {},
@@ -1924,8 +2080,8 @@
         {
           "_id": "node-OvGdU7ZC",
           "position": {
-            "x": -266.6359202350249,
-            "y": 998.4815159922886
+            "x": 225.76861722195486,
+            "y": 1050.3143690797042
           },
           "pinned": true,
           "style": {
@@ -1936,8 +2092,8 @@
         {
           "_id": "node-Yni9kTC6",
           "position": {
-            "x": 531.0543033710194,
-            "y": 761.4181028147856
+            "x": 441.7560083167707,
+            "y": 765.9975025611574
           },
           "pinned": true,
           "style": {},
@@ -1946,8 +2102,8 @@
         {
           "_id": "node-blCImIuU",
           "position": {
-            "x": 2315.5181396289504,
-            "y": 472.26822024819484
+            "x": 2328.437386079746,
+            "y": 720.4948239772114
           },
           "pinned": true,
           "style": {
@@ -1958,8 +2114,8 @@
         {
           "_id": "node-fRPg89aW",
           "position": {
-            "x": 205.89728619247137,
-            "y": 509.3501284617781
+            "x": 116.59899113822308,
+            "y": 513.9295282081499
           },
           "pinned": true,
           "style": {},
@@ -1968,8 +2124,8 @@
         {
           "_id": "node-fxsVTLn5",
           "position": {
-            "x": 1930.4702758454466,
-            "y": 921.4546404202388
+            "x": 1905.7565715552296,
+            "y": 1002.4035806993245
           },
           "pinned": true,
           "style": {},
@@ -1978,8 +2134,8 @@
         {
           "_id": "node-gRJ8Ej59",
           "position": {
-            "x": 761.6796524028912,
-            "y": 762.0954324113153
+            "x": 708.1490776686527,
+            "y": 769.2065435224264
           },
           "pinned": true,
           "style": {},
@@ -1988,8 +2144,8 @@
         {
           "_id": "node-gXUxkJS8",
           "position": {
-            "x": -222.03149045512686,
-            "y": 668.4018208188402
+            "x": -545.3798739710392,
+            "y": 588.6837626497309
           },
           "pinned": true,
           "style": {},
@@ -1998,8 +2154,8 @@
         {
           "_id": "node-hulIZJbI",
           "position": {
-            "x": 1982.1529278649243,
-            "y": 143.49380381856784
+            "x": 1990.6082869441557,
+            "y": 128.1474222847337
           },
           "pinned": true,
           "style": {},
@@ -2008,8 +2164,8 @@
         {
           "_id": "node-iLOlksnt",
           "position": {
-            "x": 2162.395945413476,
-            "y": 142.91841077444352
+            "x": 2170.851304492707,
+            "y": 127.57202924060937
           },
           "pinned": true,
           "style": {},
@@ -2018,8 +2174,8 @@
         {
           "_id": "node-jEXo7HyU",
           "position": {
-            "x": -87.51625381945827,
-            "y": 554.886264831387
+            "x": -666.3768569344819,
+            "y": 683.7502946204067
           },
           "pinned": true,
           "style": {},
@@ -2028,8 +2184,8 @@
         {
           "_id": "node-jz9cVhlW",
           "position": {
-            "x": -220.38701548192537,
-            "y": 478.3171227157969
+            "x": -535.2109550715855,
+            "y": 756.1674618201349
           },
           "pinned": true,
           "style": {
@@ -2040,28 +2196,18 @@
         {
           "_id": "node-ltRPPdbw",
           "position": {
-            "x": 1845.6306827349451,
-            "y": 534.5787887278746
+            "x": 1698.839880170031,
+            "y": 684.7244093501026
           },
           "pinned": true,
           "style": {},
           "element": "elem-9WCKkYQd"
         },
         {
-          "_id": "node-oYaH3XQN",
-          "position": {
-            "x": -186.47319379311878,
-            "y": 270.8907551515905
-          },
-          "pinned": true,
-          "style": {},
-          "element": "elem-uPwcRsRd"
-        },
-        {
           "_id": "node-vOx7kStc",
           "position": {
-            "x": -402.30590319464926,
-            "y": 1249.5977069257785
+            "x": 2473.596382684399,
+            "y": -10.531108134389328
           },
           "pinned": true,
           "style": {},
@@ -2070,18 +2216,30 @@
         {
           "_id": "node-w7PP0vQi",
           "position": {
-            "x": -69.4408678369727,
-            "y": 116.52664041476328
+            "x": -663.9483778634228,
+            "y": 485.15356756897245
+          },
+          "pinned": true,
+          "style": {
+            "color": "#cf9236"
+          },
+          "element": "elem-xR7GbpVU"
+        },
+        {
+          "_id": "node-wvdW9La7",
+          "position": {
+            "x": 713.99034306236,
+            "y": 473.9640559849409
           },
           "pinned": true,
           "style": {},
-          "element": "elem-xR7GbpVU"
+          "element": "elem-qumQc99D"
         },
         {
           "_id": "node-yBmKHOlj",
           "position": {
-            "x": 1577.8656279897675,
-            "y": 1095.731532038587
+            "x": 1018.2033573670964,
+            "y": 1061.9966147826267
           },
           "pinned": true,
           "style": {},
@@ -2091,9 +2249,21 @@
       "connections": [
         {
           "_id": "edge-02ZfksGh",
-          "curvature": -0.47759366700611194,
+          "curvature": -0.3668378925963402,
           "style": {},
           "connection": "conn-7eLCKSNq"
+        },
+        {
+          "_id": "edge-19bWuvlH",
+          "curvature": 0.0020065471663566507,
+          "style": {},
+          "connection": "conn-Cueona9t"
+        },
+        {
+          "_id": "edge-1xhCtIX5",
+          "curvature": 1.3882027935980192,
+          "style": {},
+          "connection": "conn-3Hv5vIg6"
         },
         {
           "_id": "edge-56DUQaLB",
@@ -2103,13 +2273,13 @@
         },
         {
           "_id": "edge-9UWoiQWH",
-          "curvature": -0.05835062359853814,
+          "curvature": 0.40297999528459466,
           "style": {},
           "connection": "conn-jbxUWa6J"
         },
         {
           "_id": "edge-ARaz87qR",
-          "curvature": 0.07012483190859221,
+          "curvature": 0.293185263169447,
           "style": {},
           "connection": "conn-JwPeyduy"
         },
@@ -2127,25 +2297,55 @@
         },
         {
           "_id": "edge-G4wIpw8a",
-          "curvature": 0.06026954102826495,
+          "curvature": 0.05612229107769713,
           "style": {},
           "connection": "conn-OXHPyKPa"
         },
         {
           "_id": "edge-H4QPuKb0",
-          "curvature": 0.8705015465726816,
+          "curvature": 0.3519310161708714,
           "style": {},
           "connection": "conn-ifKcB2pS"
         },
         {
+          "_id": "edge-L70VBhlt",
+          "curvature": 0.7716486400089756,
+          "style": {},
+          "connection": "conn-vHMFARr3"
+        },
+        {
           "_id": "edge-NwaP80sN",
-          "curvature": 0.8702832393860731,
+          "curvature": 0.5642074342218734,
           "style": {},
           "connection": "conn-yUnMjMCF"
         },
         {
+          "_id": "edge-S5niHqn7",
+          "curvature": 0.0032126912815754103,
+          "style": {},
+          "connection": "conn-AYh08YFP"
+        },
+        {
+          "_id": "edge-SOXp8JOJ",
+          "curvature": 0.00841723747201928,
+          "style": {},
+          "connection": "conn-cKfa2evL"
+        },
+        {
+          "_id": "edge-SeugmOOn",
+          "curvature": 0.029023102469182827,
+          "style": {},
+          "connection": "conn-AwweyFGT"
+        },
+        {
+          "_id": "edge-U2BzEXfd",
+          "curvature": 0.5073593255996512,
+          "style": {},
+          "connection": "conn-6FKjILpU"
+        },
+        {
           "_id": "edge-UV0tExE1",
-          "curvature": 0.029232739525057824,
+          "curvature": 0.00895783173299479,
           "style": {},
           "connection": "conn-HdBvzpuA"
         },
@@ -2156,34 +2356,40 @@
           "connection": "conn-vfC4uk4I"
         },
         {
+          "_id": "edge-VcBm3V7C",
+          "curvature": 0.516616655125224,
+          "style": {},
+          "connection": "conn-IqhWWrDX"
+        },
+        {
           "_id": "edge-ViB1vQR1",
-          "curvature": 0.018379292062014795,
+          "curvature": -0.21220164582625034,
           "style": {},
           "connection": "conn-wSdvIbtZ"
         },
         {
           "_id": "edge-WPEv3zN5",
-          "curvature": 0.4036995965789706,
+          "curvature": 0.019524174740604323,
           "style": {},
           "connection": "conn-ccZPxG65"
         },
         {
-          "_id": "edge-XRTZ8KfR",
-          "curvature": 0.9126393920882087,
-          "style": {},
-          "connection": "conn-sTiwMJxf"
-        },
-        {
           "_id": "edge-YbuGnuH9",
-          "curvature": 0.06697900008785551,
+          "curvature": -0.29420687663006895,
           "style": {},
           "connection": "conn-66YUjDJK"
         },
         {
           "_id": "edge-Z6a3jkQ1",
-          "curvature": 0.03710327683970113,
+          "curvature": -0.11921895841921167,
           "style": {},
           "connection": "conn-4ng4W4de"
+        },
+        {
+          "_id": "edge-aANa2cFL",
+          "curvature": 0.5864888793543519,
+          "style": {},
+          "connection": "conn-7kcJf1zM"
         },
         {
           "_id": "edge-bSC3DA13",
@@ -2192,38 +2398,62 @@
           "connection": "conn-3rtKd86Z"
         },
         {
+          "_id": "edge-dH4uQjLa",
+          "curvature": 0.45240993939536067,
+          "style": {},
+          "connection": "conn-772DAgxy"
+        },
+        {
           "_id": "edge-eG1GaR7I",
           "curvature": -1.36612720441718,
           "style": {},
           "connection": "conn-UeYX3R8a"
         },
         {
+          "_id": "edge-flI07Erb",
+          "curvature": 0.9235204755425896,
+          "style": {},
+          "connection": "conn-5iKqiT3x"
+        },
+        {
           "_id": "edge-fmgPB622",
-          "curvature": 0.009823147641256203,
+          "curvature": 0.1613219150416027,
           "style": {},
           "connection": "conn-DSA3d8b3"
         },
         {
           "_id": "edge-g7tY7f8i",
-          "curvature": 0.3899883838581022,
+          "curvature": 0.013550628944243304,
           "style": {},
           "connection": "conn-MuoTi1rJ"
         },
         {
-          "_id": "edge-jfq1URMP",
-          "curvature": -0.019076302259614042,
+          "_id": "edge-iKcuZlFn",
+          "curvature": 0.5986923740674195,
           "style": {},
-          "connection": "conn-DIwcEp3H"
+          "connection": "conn-ZvLJbEJO"
+        },
+        {
+          "_id": "edge-j8S9JN6Z",
+          "curvature": 0.8928332463900255,
+          "style": {},
+          "connection": "conn-KCsm0f5N"
+        },
+        {
+          "_id": "edge-jgswRu0u",
+          "curvature": 0.7693249499007588,
+          "style": {},
+          "connection": "conn-Ei6bpaF5"
         },
         {
           "_id": "edge-l068MR41",
-          "curvature": 0.047457328599266206,
+          "curvature": -0.12788386161863152,
           "style": {},
           "connection": "conn-8GJlcEzr"
         },
         {
           "_id": "edge-noVqt1kU",
-          "curvature": 0.0828977749122159,
+          "curvature": 0.07638070705210105,
           "style": {},
           "connection": "conn-iNxkgcYV"
         },
@@ -2235,7 +2465,7 @@
         },
         {
           "_id": "edge-tkgcrgvj",
-          "curvature": 0.03223321239040999,
+          "curvature": 0.11771439018188742,
           "style": {},
           "connection": "conn-N4qXHZa5"
         },
@@ -2253,7 +2483,7 @@
     {
       "_id": "pers-knup94hL",
       "name": "Forsythe draft",
-      "style": "@settings {\n  template: systems;\n  connection-color: #c6c6c6;\n  element-size: 63;\n  font-size: 32;\n  font-color: #000000;\n  theme: light;\n  layout: static;\n  layout-grid: false;\n  include: same-connection, -connection, --connection, -connection, --connection, --connection, --connection, undefined-connection, element, loop;\n  direct-decorations: false;\n  culling: false;\n}\n\n/* state variable */\nelement[\"element type\"=\"state variable\"] {\n  color: #97d7cd;\n}\n\n/* process */\nelement[\"element type\"=\"process\"] {\n  color: #dedede;\n}\n\n/* management action */\nelement[\"element type\"=\"lever\"] {\n  color: #fdc171;\n}\n\n#background {\n  image-url: url(https://github.com/caseyhelgeson/LBI.MM/blob/main/background.jpg?raw=true);\n  layer: background;\n  shape: rectangle;\n  size: 1300;\n  color: transparent;\n  image-size: contain;\n  image-resolution: original;\n  label-visibility: none;\n}\n\n/* climate/ocean driver */\nelement[\"element type\"=\"ocean drivers (not the best name)\"] {\n  color: #c6c7e1;\n}\n\n"
+      "style": "@settings {\n  template: systems;\n  connection-color: #c6c6c6;\n  element-size: 63;\n  font-size: 32;\n  font-color: #000000;\n  theme: light;\n  layout: static;\n  layout-grid: false;\n  include: same-connection, -connection, --connection, -connection, --connection, --connection, --connection, undefined-connection, element, loop;\n  direct-decorations: false;\n  culling: false;\n}\n\n/* state variable (geophysical) */\nelement[\"element type\"=\"state variable\"] {\n  color: #97d7cd;\n}\n\n/* process */\nelement[\"element type\"=\"process\"] {\n  color: #dedede;\n}\n\n/* management action */\nelement[\"element type\"=\"lever\"] {\n  color: #fdc171;\n}\n\n/*#background {\n  image-url: url(https://github.com/caseyhelgeson/LBI.MM/blob/main/background.jpg?raw=true);\n  layer: background;\n  shape: rectangle;\n  size: 1300;\n  color: transparent;\n  image-size: contain;\n  image-resolution: original;\n  label-visibility: none;\n}\n\n/* geophysical driver */\nelement[\"element type\"=\"ocean drivers (not the best name)\"] {\n  color: #c6c7e1;\n}\n\n"
     }
   ]
 }
