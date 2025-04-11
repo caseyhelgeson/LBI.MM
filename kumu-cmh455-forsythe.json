@@ -171,6 +171,13 @@
       }
     },
     {
+      "_id": "elem-7Xw4tPtU",
+      "attributes": {
+        "label": "dune  vegetation",
+        "element type": "state variable"
+      }
+    },
+    {
       "_id": "elem-8qAkg1tS",
       "attributes": {
         "label": "relative  sea level",
@@ -373,6 +380,12 @@
       }
     },
     {
+      "_id": "elem-bNlKTnal",
+      "attributes": {
+        "label": "dune slope"
+      }
+    },
+    {
       "_id": "elem-be8gpw4A",
       "attributes": {
         "label": "other \"gray\" infrastructure",
@@ -485,6 +498,13 @@
       }
     },
     {
+      "_id": "elem-m5cfI1CB",
+      "attributes": {
+        "label": "chemical  treatment",
+        "element type": "lever"
+      }
+    },
+    {
       "_id": "elem-mDOGb5jV",
       "attributes": {
         "label": "tourism"
@@ -549,7 +569,7 @@
     {
       "_id": "elem-uo0xmbS6",
       "attributes": {
-        "label": "barrier  height",
+        "label": "dune  height",
         "element type": "state variable"
       }
     },
@@ -619,6 +639,13 @@
       "_id": "elem-zqtutbPd",
       "attributes": {
         "label": "erodability",
+        "element type": "state variable"
+      }
+    },
+    {
+      "_id": "elem-7eRUhSgF",
+      "attributes": {
+        "label": "beach  length",
         "element type": "state variable"
       }
     }
@@ -1035,6 +1062,15 @@
       "to": "elem-qqbHuj6c"
     },
     {
+      "_id": "conn-GQotZBOo",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-7Xw4tPtU",
+      "to": "elem-f2cXyQgb"
+    },
+    {
       "_id": "conn-HdBvzpuA",
       "direction": "directed",
       "delayed": false,
@@ -1126,6 +1162,15 @@
       "attributes": {},
       "from": "elem-GOFqT6H4",
       "to": "elem-8qAkg1tS"
+    },
+    {
+      "_id": "conn-KmP66cVO",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-7Xw4tPtU",
+      "to": "elem-uo0xmbS6"
     },
     {
       "_id": "conn-LWfDZQ5S",
@@ -1592,6 +1637,24 @@
       "to": "elem-wMgPpjfC"
     },
     {
+      "_id": "conn-laWIgay3",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-f2cXyQgb",
+      "to": "elem-7Xw4tPtU"
+    },
+    {
+      "_id": "conn-lcpUTLgy",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-m5cfI1CB",
+      "to": "elem-7Xw4tPtU"
+    },
+    {
       "_id": "conn-ltlVDqD5",
       "direction": "directed",
       "delayed": false,
@@ -1886,8 +1949,8 @@
         {
           "_id": "node-0ZKWPO5q",
           "position": {
-            "x": 1296.424617901693,
-            "y": 976.3013322772654
+            "x": 1277.228384321108,
+            "y": 1084.7110080509458
           },
           "pinned": true,
           "style": {},
@@ -1896,8 +1959,8 @@
         {
           "_id": "node-0bCsD9bv",
           "position": {
-            "x": 1849.145978533723,
-            "y": 836.8003214480258
+            "x": 1875.033721842036,
+            "y": 825.4824433261339
           },
           "pinned": true,
           "style": {},
@@ -1914,16 +1977,6 @@
           "element": "elem-EVzF0F7d"
         },
         {
-          "_id": "node-4sp2luF4",
-          "position": {
-            "x": 2070.1530161019687,
-            "y": -10.363592739786686
-          },
-          "pinned": true,
-          "style": {},
-          "element": "elem-3DRsGvZA"
-        },
-        {
           "_id": "node-74ezNgbf",
           "position": {
             "x": -166.04750288975424,
@@ -1938,28 +1991,18 @@
         {
           "_id": "node-79OBChXE",
           "position": {
-            "x": 395.71650159507556,
-            "y": 1054.0890631280047
+            "x": 310.38316826174224,
+            "y": 1206.266840905782
           },
           "pinned": true,
           "style": {},
           "element": "elem-I9C8ZT2c"
         },
         {
-          "_id": "node-A2S0IrbB",
-          "position": {
-            "x": 2276.979687759877,
-            "y": -16.46583518693937
-          },
-          "pinned": true,
-          "style": {},
-          "element": "elem-YaIswny0"
-        },
-        {
           "_id": "node-ALK3nc0t",
           "position": {
-            "x": 2340.0053192598684,
-            "y": 996.9210614002639
+            "x": 2210.4298453193223,
+            "y": 542.0315204461386
           },
           "pinned": true,
           "style": {},
@@ -1968,8 +2011,8 @@
         {
           "_id": "node-BaAEZUWG",
           "position": {
-            "x": 1313.1017521041974,
-            "y": 367.8886113792327
+            "x": 1278.2821235625845,
+            "y": 592.8618027696302
           },
           "pinned": true,
           "style": {},
@@ -1978,8 +2021,8 @@
         {
           "_id": "node-DdXDcLi3",
           "position": {
-            "x": 885.3595402471038,
-            "y": 340.6649502312095
+            "x": 1036.6732218550828,
+            "y": 296.5185609596219
           },
           "pinned": true,
           "style": {},
@@ -1998,8 +2041,8 @@
         {
           "_id": "node-ELDCEGuj",
           "position": {
-            "x": 2111.2968979371885,
-            "y": 645.2669060666728
+            "x": 1931.536311200705,
+            "y": 586.7609813804897
           },
           "pinned": true,
           "style": {},
@@ -2016,20 +2059,10 @@
           "element": "elem-eE7aEVw0"
         },
         {
-          "_id": "node-HJ3dWO9O",
-          "position": {
-            "x": 1882.744757128595,
-            "y": -4.693005432344762
-          },
-          "pinned": true,
-          "style": {},
-          "element": "elem-EPhAimOr"
-        },
-        {
           "_id": "node-JHMLdfbb",
           "position": {
-            "x": 2155.0466545823797,
-            "y": 875.7758189943928
+            "x": 2119.329133652788,
+            "y": 763.4609742514574
           },
           "pinned": true,
           "style": {
@@ -2040,8 +2073,8 @@
         {
           "_id": "node-JRCi66bY",
           "position": {
-            "x": 2366.6406554737714,
-            "y": 123.20222203887681
+            "x": -637.4028953221184,
+            "y": 1158.2402803504822
           },
           "pinned": true,
           "style": {},
@@ -2050,8 +2083,8 @@
         {
           "_id": "node-Kfsk6e9a",
           "position": {
-            "x": 1580.830334014627,
-            "y": 900.5014746315088
+            "x": 1593.3583454444226,
+            "y": 1017.2357842809905
           },
           "pinned": true,
           "style": {},
@@ -2060,8 +2093,8 @@
         {
           "_id": "node-O0pi0zm0",
           "position": {
-            "x": 1270.677374706246,
-            "y": 761.7383387092559
+            "x": 1279.7810571690798,
+            "y": 848.590972923254
           },
           "pinned": true,
           "style": {},
@@ -2070,8 +2103,8 @@
         {
           "_id": "node-O18tiYwr",
           "position": {
-            "x": 1094.505192208296,
-            "y": 478.29437329156485
+            "x": 1111.4250940553352,
+            "y": 494.34211348006846
           },
           "pinned": true,
           "style": {},
@@ -2080,8 +2113,8 @@
         {
           "_id": "node-OvGdU7ZC",
           "position": {
-            "x": 225.76861722195486,
-            "y": 1050.3143690797042
+            "x": 306.83528388862146,
+            "y": 1036.092146857482
           },
           "pinned": true,
           "style": {
@@ -2102,8 +2135,8 @@
         {
           "_id": "node-blCImIuU",
           "position": {
-            "x": 2328.437386079746,
-            "y": 720.4948239772114
+            "x": 2064.3328772764553,
+            "y": 382.94796485226965
           },
           "pinned": true,
           "style": {
@@ -2124,8 +2157,8 @@
         {
           "_id": "node-fxsVTLn5",
           "position": {
-            "x": 1905.7565715552296,
-            "y": 1002.4035806993245
+            "x": 1885.9835801570507,
+            "y": 989.6199329804838
           },
           "pinned": true,
           "style": {},
@@ -2152,26 +2185,6 @@
           "element": "elem-hpAu3Jzq"
         },
         {
-          "_id": "node-hulIZJbI",
-          "position": {
-            "x": 1990.6082869441557,
-            "y": 128.1474222847337
-          },
-          "pinned": true,
-          "style": {},
-          "element": "elem-be8gpw4A"
-        },
-        {
-          "_id": "node-iLOlksnt",
-          "position": {
-            "x": 2170.851304492707,
-            "y": 127.57202924060937
-          },
-          "pinned": true,
-          "style": {},
-          "element": "elem-iZf5AHT6"
-        },
-        {
           "_id": "node-jEXo7HyU",
           "position": {
             "x": -666.3768569344819,
@@ -2196,22 +2209,22 @@
         {
           "_id": "node-ltRPPdbw",
           "position": {
-            "x": 1698.839880170031,
-            "y": 684.7244093501026
+            "x": 1697.1232972282849,
+            "y": 742.068581278102
           },
           "pinned": true,
           "style": {},
           "element": "elem-9WCKkYQd"
         },
         {
-          "_id": "node-vOx7kStc",
+          "_id": "node-luk9Kxoz",
           "position": {
-            "x": 2473.596382684399,
-            "y": -10.531108134389328
+            "x": 860.677400842114,
+            "y": 328.57262419207166
           },
           "pinned": true,
           "style": {},
-          "element": "elem-NbI8v4XU"
+          "element": "elem-7Xw4tPtU"
         },
         {
           "_id": "node-w7PP0vQi",
@@ -2228,28 +2241,48 @@
         {
           "_id": "node-wvdW9La7",
           "position": {
-            "x": 713.99034306236,
-            "y": 473.9640559849409
+            "x": 1321.2001011070622,
+            "y": 358.97981805600926
           },
           "pinned": true,
           "style": {},
           "element": "elem-qumQc99D"
         },
         {
+          "_id": "node-x0gT71iP",
+          "position": {
+            "x": 719.7651074412315,
+            "y": 504.8864192933995
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-m5cfI1CB"
+        },
+        {
           "_id": "node-yBmKHOlj",
           "position": {
-            "x": 1018.2033573670964,
-            "y": 1061.9966147826267
+            "x": 1011.7438387857362,
+            "y": 1087.050797657011
           },
           "pinned": true,
           "style": {},
           "element": "elem-YJBFHFkJ"
+        },
+        {
+          "_id": "node-zDDJ979M",
+          "position": {
+            "x": 1723.6148191108462,
+            "y": -55.55526670038111
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-7eRUhSgF"
         }
       ],
       "connections": [
         {
           "_id": "edge-02ZfksGh",
-          "curvature": -0.3668378925963402,
+          "curvature": -0.6434417858525225,
           "style": {},
           "connection": "conn-7eLCKSNq"
         },
@@ -2261,7 +2294,7 @@
         },
         {
           "_id": "edge-1xhCtIX5",
-          "curvature": 1.3882027935980192,
+          "curvature": 1.626597573999979,
           "style": {},
           "connection": "conn-3Hv5vIg6"
         },
@@ -2273,13 +2306,13 @@
         },
         {
           "_id": "edge-9UWoiQWH",
-          "curvature": 0.40297999528459466,
+          "curvature": 0.2934954137093629,
           "style": {},
           "connection": "conn-jbxUWa6J"
         },
         {
           "_id": "edge-ARaz87qR",
-          "curvature": 0.293185263169447,
+          "curvature": 0.3506049207335432,
           "style": {},
           "connection": "conn-JwPeyduy"
         },
@@ -2303,25 +2336,31 @@
         },
         {
           "_id": "edge-H4QPuKb0",
-          "curvature": 0.3519310161708714,
+          "curvature": 0.27652698156031835,
           "style": {},
           "connection": "conn-ifKcB2pS"
         },
         {
           "_id": "edge-L70VBhlt",
-          "curvature": 0.7716486400089756,
+          "curvature": 0.6347415428890852,
           "style": {},
           "connection": "conn-vHMFARr3"
         },
         {
           "_id": "edge-NwaP80sN",
-          "curvature": 0.5642074342218734,
+          "curvature": 0.4653205583402223,
           "style": {},
           "connection": "conn-yUnMjMCF"
         },
         {
+          "_id": "edge-OGoAxHOw",
+          "curvature": 1.42889487098524,
+          "style": {},
+          "connection": "conn-GQotZBOo"
+        },
+        {
           "_id": "edge-S5niHqn7",
-          "curvature": 0.0032126912815754103,
+          "curvature": -0.0821277554713389,
           "style": {},
           "connection": "conn-AYh08YFP"
         },
@@ -2339,7 +2378,7 @@
         },
         {
           "_id": "edge-U2BzEXfd",
-          "curvature": 0.5073593255996512,
+          "curvature": 0.4604517635294101,
           "style": {},
           "connection": "conn-6FKjILpU"
         },
@@ -2357,13 +2396,13 @@
         },
         {
           "_id": "edge-VcBm3V7C",
-          "curvature": 0.516616655125224,
+          "curvature": 0.9348561829601414,
           "style": {},
           "connection": "conn-IqhWWrDX"
         },
         {
           "_id": "edge-ViB1vQR1",
-          "curvature": -0.21220164582625034,
+          "curvature": -0.20338763803484633,
           "style": {},
           "connection": "conn-wSdvIbtZ"
         },
@@ -2375,19 +2414,19 @@
         },
         {
           "_id": "edge-YbuGnuH9",
-          "curvature": -0.29420687663006895,
+          "curvature": -0.5206291442705328,
           "style": {},
           "connection": "conn-66YUjDJK"
         },
         {
           "_id": "edge-Z6a3jkQ1",
-          "curvature": -0.11921895841921167,
+          "curvature": -0.0031014144264508523,
           "style": {},
           "connection": "conn-4ng4W4de"
         },
         {
           "_id": "edge-aANa2cFL",
-          "curvature": 0.5864888793543519,
+          "curvature": 0.647552897007583,
           "style": {},
           "connection": "conn-7kcJf1zM"
         },
@@ -2411,15 +2450,21 @@
         },
         {
           "_id": "edge-flI07Erb",
-          "curvature": 0.9235204755425896,
+          "curvature": 0.5167347903186095,
           "style": {},
           "connection": "conn-5iKqiT3x"
         },
         {
           "_id": "edge-fmgPB622",
-          "curvature": 0.1613219150416027,
+          "curvature": -0.0826810386518753,
           "style": {},
           "connection": "conn-DSA3d8b3"
+        },
+        {
+          "_id": "edge-g6TQIqYt",
+          "curvature": 0.44993897854889275,
+          "style": {},
+          "connection": "conn-laWIgay3"
         },
         {
           "_id": "edge-g7tY7f8i",
@@ -2429,7 +2474,7 @@
         },
         {
           "_id": "edge-iKcuZlFn",
-          "curvature": 0.5986923740674195,
+          "curvature": 0.6749258618969064,
           "style": {},
           "connection": "conn-ZvLJbEJO"
         },
@@ -2441,21 +2486,27 @@
         },
         {
           "_id": "edge-jgswRu0u",
-          "curvature": 0.7693249499007588,
+          "curvature": 0.6549644057683329,
           "style": {},
           "connection": "conn-Ei6bpaF5"
         },
         {
           "_id": "edge-l068MR41",
-          "curvature": -0.12788386161863152,
+          "curvature": 0.004116934591093472,
           "style": {},
           "connection": "conn-8GJlcEzr"
         },
         {
           "_id": "edge-noVqt1kU",
-          "curvature": 0.07638070705210105,
+          "curvature": 0.10714713561749213,
           "style": {},
           "connection": "conn-iNxkgcYV"
+        },
+        {
+          "_id": "edge-oOa2I0SX",
+          "curvature": 0.06584709384847989,
+          "style": {},
+          "connection": "conn-lcpUTLgy"
         },
         {
           "_id": "edge-q308i14K",
@@ -2464,8 +2515,14 @@
           "connection": "conn-T3xY79cV"
         },
         {
+          "_id": "edge-rINbx37y",
+          "curvature": 0.4347244567860097,
+          "style": {},
+          "connection": "conn-KmP66cVO"
+        },
+        {
           "_id": "edge-tkgcrgvj",
-          "curvature": 0.11771439018188742,
+          "curvature": -0.003830026805244643,
           "style": {},
           "connection": "conn-N4qXHZa5"
         },
